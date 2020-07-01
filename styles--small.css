@@ -1,0 +1,217 @@
+.content {
+    text-align: center;
+}
+
+.section-0 {
+    background-image: url("images/background/background--small@2x.jpg"); /* IE / Edge / Firefox */
+    background-image: -webkit-image-set(url("images/background/background--small@1x.jpg") 1x, url("images/background/background--small@2x.jpg") 2x);
+    background-image: image-set(url("images/background/background--small@1x.jpg") 1x, url("images/background/background--small@2x.jpg") 2x);
+    height: 1300px;
+}
+
+#nav-mobile {
+    width: 100%;
+    height: 400px;
+    left: 0;
+}
+
+#nav-mobile ul {
+    width: 80%;
+}
+
+#nav-close {
+    width: 100%;
+    left: 25px;
+}
+
+.section-1 {
+    width: 350px;
+    top: 650px;
+    transform: translate(-50%, -325px);
+}
+
+.section-1 .inner-content h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.section-1 .inner-content h6 {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.section-1 .inner-content hr {
+    width: 25px;
+}
+
+.section-1 .inner-content .scrolldown svg {
+    transform: scale(1.25);
+}
+
+/* Section
+   Headings */
+
+.section-heading h5 {
+    font-size: 0.75rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.15em;
+}
+
+.section-heading h2 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -2px;
+}
+
+.section-heading p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.section-2 .inner-content .sub-section {
+    margin: 75px 0;
+}
+
+.section-2 .inner-content .sub-section p {
+    width: 400px;
+    text-align: justify;
+}
+
+.section-3 .video-thumbnail {
+    width: 500px;
+}
+
+.section-3 .video-thumbnail a svg {
+    transform: translateY(5px) scale(1.35);
+}
+
+.section-3 .video-thumbnail .sub-section {
+    font-size: 0.65rem;
+    transform: translateY(20px);
+}
+
+.section-3 .video-thumbnail .sub-section span svg {
+    transform: scale(1.75);
+}
+
+.section-4 .section-heading {
+    width: 450px;
+}
+
+.section-4 .inner-content div img {
+    width: 300px;
+}
+
+/* Paragraph
+Typography
+H3 | P | H5
+*/
+
+.section-4 .inner-content .sub-section {
+    width: 335px;
+}
+
+.section-4 .inner-content .sub-section h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.section-4 .inner-content .sub-section p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.section-4 .inner-content .sub-section h5 a {
+    font-size: 0.6rem;
+    padding: 6px 18px;
+}
+
+.section-5 .section-heading {
+    width: 400px;
+}
+
+.section-5 .section-heading p {
+    margin: 60px auto;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+}
+
+.section-5 .cards {
+    width: 350px;
+}
+
+.section-5 .cards .experience {
+    margin: 0 75px 0 0;
+}
+
+.section-5 .cards .experience picture {
+    height: 350px;
+    width: 350px;
+}
+
+/* Carousel
+   Card
+   Arrows */
+
+.section-5 .previous {
+    transform: rotate(180deg) translateX(-15px);
+}
+
+.section-5 .next {
+    transform: translateX(-15px);
+}
+   
+.section-5 .card-button svg {
+    transform: scale(2.5);
+}
+
+.section-6 {
+    margin-top: 150px;
+}
+
+.section-6 .section-heading {
+    width: 350px;
+}
+
+.section-6 .logos {
+    margin-top: 75px;
+    width: 250px;
+}
+
+.section-6 .logos svg {
+    margin: 20px 0;
+}
+
+.section-7 .inner-content > * {
+    margin-bottom: 35px;
+}
+
+.section-7 .logo svg {
+    height: 30px;
+}
+
+.section-7 ul li {
+    margin: 25px 0;
+}
+
+.section-7 ul li a {
+    padding: 8px 14px;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+}
+
+.section-7 div:last-child {
+    font-size: 0.75rem;
+}
+
+/* Device Info */
+#device-info::before {
+    content: "--small.css";
+}
+
+/* Vue 
+   Animation */
+
+.slide-enter, .slide-leave-to {
+    transform: translateY(-100%);
+}
